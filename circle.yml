@@ -15,8 +15,8 @@ dependencies:
     - cabal configure
 
 test:
-    override:
-          - cabal build
+  override:
+    - cabal build
 
 post:
   - git submodule init
